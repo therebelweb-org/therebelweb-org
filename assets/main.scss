@@ -1,0 +1,77 @@
+@font-face {
+  font-family: yukari;
+  src: url('/ttf/yukarimobil.ttf');
+}
+
+#homepage {
+  .homepage-hero {
+    background: url('/img/the-rebels-hero.png');
+    background-size: cover;
+    background-position: 50% 0;
+
+    h1 {
+      color: white;
+      line-height: 1em;
+      font-family: yukari;
+      font-size: 5rem;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-shadow: 0 3px 5px #D134D6;
+
+      @media screen and (max-width: 768px) {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .homepage-features {
+    h2 {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.navbar {
+  background-color: #D134D6;
+
+  a.navbar-item {
+    color: white;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  .is-active {
+    .navbar-item {
+      color: black;
+    }
+  }
+
+  .navbar-brand {
+    a.navbar-item {
+      font-family: yukari;
+      font-size: 1.5em;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+img.lead {
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.content {
+  margin: 1.5rem;
+}
