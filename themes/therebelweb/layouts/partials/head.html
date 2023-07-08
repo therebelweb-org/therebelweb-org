@@ -9,4 +9,6 @@
 {{ $style := $localsass | resources.ToCSS | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
+<link rel="stylesheet" href="/css/dracula.css" type="text/css" media="screen" />
+
 <script src="https://kit.fontawesome.com/d4debd1097.js" crossorigin="anonymous"></script>
