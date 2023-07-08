@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="columns">
+  <div class="column is-hidden-mobile"></div>
+
+  <div class="column content page-content is-half">
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+
+    {{ with .NextInSection }}
+    <div class="sequence-links">
+      <a href="{{ .Permalink }}">{{ .Title }}
+        <span class="icon"><i class="fas fa-arrow-right"></i></span></a>
+
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="column is-hidden-mobile"></div>
+</div>
+{{ end }}

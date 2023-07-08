@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="columns" id="posts-list">
+  <div class="column is-hidden-mobile"></div>
+
+  <div class="column content page-content is-half">
+    {{ range (where .Site.RegularPages "Type" "in" "posts") }}
+    <div class="section post">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ .Summary }}
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="column is-hidden-mobile"></div>
+</div>
+{{ end }}
