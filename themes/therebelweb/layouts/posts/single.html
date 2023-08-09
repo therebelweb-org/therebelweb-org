@@ -7,13 +7,19 @@
 
     {{ .Content }}
 
-    {{ with .NextInSection }}
     <div class="sequence-links">
-      <a href="{{ .Permalink }}">{{ .Title }}
-        <span class="icon"><i class="fas fa-arrow-right"></i></span></a>
-
-    </div>
+    {{ with .PrevInSection }}
+      <a class="prev" href="{{ .Permalink }}">
+        <span class="icon"><i class="fas fa-arrow-left"></i></span> {{ .Title }}
+      </a>
     {{ end }}
+
+    {{ with .NextInSection }}
+      <a class="next" href="{{ .Permalink }}">
+        {{ .Title }} <span class="icon"><i class="fas fa-arrow-right"></i></span>
+      </a>
+    {{ end }}
+    </div>
   </div>
 
   <div class="column is-hidden-mobile"></div>
