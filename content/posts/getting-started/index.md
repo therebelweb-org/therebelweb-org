@@ -1,11 +1,14 @@
 ---
 title: "Getting started"
 date: 2023-07-06T13:34:07-04:00
+tile: Using this site
 ---
 
 Are you ready to create your own website, that you completely control? Before we
 dive into the project, here are a few things to know about how *this* website
 works.
+
+<!--more-->
 
 The Rebel Web is your guide to creating an identity on the internet. If you
 follow the articles one by one, you'll end up with a website of your own design

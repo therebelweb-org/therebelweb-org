@@ -1,12 +1,55 @@
 ---
-title: What is a website?
+title: Let's make a website!
 date: 2023-07-06T15:48:40-04:00
+draft: true
+tile: DNS? Wat.
 ---
 
-A gentle introduction to what a website actually is, and how it works. Knowing
-the fundamentals will prepare you to build your own!
+The "Domain Name System" is just a way to give websites memorable names. Let's
+dig deeper into how it works.
 
 <!--more-->
+
+The name of a site that you see in your browser's address bar, like
+`therebelweb.org`, is called a "domain name." A domain name is just a way to
+make the location of a website memorable for humans. Computers don't really care
+much about domain names, but we'll get into that later on.
+
+A domain can only point to one website, and so they are a finite resource. For
+that reason (among others), you need to pay some money to "register" a domain
+name so that you can point it to your website. This also attempts to make people
+behave themselves by recording who owns which domain.
+
+
+
+To put a website online, you need the following things:
+
+1. The website's files themselves, the "source code" and media like images and
+   so forth that are displayed there.
+   
+2. A web server that "hosts" those files and serves them to visitors.
+
+3. A domain name by which your site can be reached.
+
+And that's it! Once you have those three things, you have your own website.
+
+The Rebel Web is here to guide you through the process of assembling these three
+things and putting your first website online. No matter where you are on your
+journey, The Rebel Web is here to help.
+
+<!--more-->
+
+## Where do you want to go next?
+
+Choose one of these areas to start the next step in your learning journey:
+
+* Learn more about how the web works
+
+* Start creating your first webpage
+
+* Register your own domain name
+
+* Sign up for a web hosting service
 
 A website, at its most basic, is just a text file. The text in that file is
 mainly HTML[^1], which is a way of describing content to a web browser. The HTML
@@ -18,16 +61,6 @@ of as "raw content." But that would be pretty boring, so we use CSS[^2] to tell
 the browser what things should look like. Both HTML and CSS are *just text*.
 
 ### Domains
-
-The name of a site that you see in your browser's address bar, like
-`therebelweb.org`, is called a "domain name." A domain name is just a way to
-make the location of a website memorable for humans. Computers don't really care
-much about domain names, but we'll get into that later on.
-
-A domain can only point to one website, and so they are a finite resource. For
-that reason (among others), you need to pay some money to "register" a domain
-name so that you can point it to your website. This also attempts to make people
-behave themselves by recording who owns which domain.
 
 ### Servers
 
