@@ -1,7 +1,6 @@
 ---
 title: How to register a domain
 date: 2023-07-06T15:48:40-04:00
-draft: true
 tile: DNS? WTF?
 ---
 
