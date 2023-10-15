@@ -43,6 +43,9 @@ html {
     margin-bottom: 1.5rem;
   }
 
+}
+
+.post-grid {
   article {
     &:hover {
       box-shadow: 0 0 10px #f72585;
@@ -146,6 +149,27 @@ img.lead {
     }
   }
 }
+
+.post-tags {
+  margin-bottom: 1em;
+
+  .post-tag {
+    &:hover {
+      color: white;
+    }
+    display: inline-block;
+    background-color: #4361ee;
+    color: white;
+    height: 1.8em;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    border-radius: 0.9em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+    border-bottom-color: #3a0ca3;
+  }
+}
+
 
 .has-text-center {
   text-align: center;

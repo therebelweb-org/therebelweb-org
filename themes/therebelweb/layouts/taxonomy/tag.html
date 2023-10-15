@@ -1,0 +1,6 @@
+{{ define "main" }}
+<div class="content">
+{{ .Scratch.Set "items" .Data.Pages }}
+{{- partial "post_grid.html" . -}}
+</div>
+{{ end }}

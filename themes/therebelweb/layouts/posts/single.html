@@ -5,6 +5,14 @@
   <div class="column content page-content is-half">
     <h2>{{ .Title }}</h2>
 
+    {{ with .Params.Tags }}
+    <div class="post-tags">
+    {{ range . }}
+    <a href="/tags/{{ . }}" class="post-tag">#{{ . }}</a>
+    {{ end }}
+    </div>
+    {{ end }}
+
     {{ .Content }}
 
     <div class="sequence-links">

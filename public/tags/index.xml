@@ -2,9 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
+    <link>https://therebelweb.org/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Aug 2023 12:54:20 -0400</lastBuildDate><atom:link href="https://therebelweb.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>howto</title>
+      <link>https://therebelweb.org/tags/howto/</link>
+      <pubDate>Wed, 09 Aug 2023 12:54:20 -0400</pubDate>
+      
+      <guid>https://therebelweb.org/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>help</title>
+      <link>https://therebelweb.org/tags/help/</link>
+      <pubDate>Thu, 06 Jul 2023 13:34:07 -0400</pubDate>
+      
+      <guid>https://therebelweb.org/tags/help/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

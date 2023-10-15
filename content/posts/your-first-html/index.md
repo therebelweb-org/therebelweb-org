@@ -2,6 +2,8 @@
 title: "Your first HTML"
 date: 2023-07-07T06:21:09-04:00
 tile: What is HTML, anyway?
+tags:
+    - howto
 ---
 
 Before you start writing HTML, let's have a look at a simple webpage and walk
@@ -9,8 +11,9 @@ through how it all works.
 
 <!--more-->
 
-As we talked about before, HTML and CSS are just text. In fact, there aren't
-even any symbols or emoji in them, just letters and punctuation.
+HTML and CSS are just text. In fact, there aren't even any symbols or emoji in
+them, just letters and punctuation. You can use emoji in your website content if
+you want to, but it isn't required to make the website work.
 
 Here is just about the simplest webpage that you could make:
 
@@ -45,8 +48,8 @@ For instance, in the above example, there is a title tag, which looks like this:
 ```
 
 The first tag (the "opening title tag") tells the browser that the title of the
-page is coming. "My first webpage" is the title "content," and then the tag is
-closed, telling the browser that the title has ended.
+page is coming. "My first webpage" is the "content" of the title tag, and then
+the tag is closed, telling the browser that the title has ended.
 
 ## It's tags all the way down!
 
