@@ -30,7 +30,7 @@ Here is just about the simplest webpage that you could make:
 </html>
 ```
 
-## What is a tag?
+### What is a tag?
 
 HTML is made up of "tags." A tag is a word between greater-than and less-than
 signs, like `<head>`. In HTML, we can have "opening tags" and "closing tags." An
@@ -51,7 +51,7 @@ The first tag (the "opening title tag") tells the browser that the title of the
 page is coming. "My first webpage" is the "content" of the title tag, and then
 the tag is closed, telling the browser that the title has ended.
 
-## It's tags all the way down!
+### It's tags all the way down!
 
 Tags can be nested within other tags, and that's where a lot of the power of
 HTML begins to emerge. In the example up above, you can see that the `<title>`
@@ -71,7 +71,7 @@ It's customary to indent lines that are "nested" within tags, but indentation
 has no effect on the website, it is only for readability. If you use an editor
 that is designed for writing HTML, it may do the indentation for you.
 
-## Let's create a webpage!
+### Let's create a webpage!
 
 The first thing you need to do is create a folder (or "directory") somewhere on
 your computer to store this website that you are creating. It doesn't matter

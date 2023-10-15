@@ -24,7 +24,7 @@ that reason (among others), you need to pay some money to "register" a domain
 name so that you can point it to your website. This also attempts to make people
 behave themselves by recording who owns which domain.
 
-## Picking a "registrar"
+### Picking a "registrar"
 
 The organization that sells you the right to use a domain name is called a
 "domain name registrar," and there are tons of them out there. Not all

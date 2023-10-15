@@ -139,8 +139,26 @@ img.lead {
 .content {
   margin: 1.5rem;
 
+  h2 {
+    display: inline-block;
+    padding: 0.3em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 3px #C2F3F8;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #222;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
   p {
     font-size: 1.125rem;
+    color: #666;
 
     code {
       font-family: monospace;

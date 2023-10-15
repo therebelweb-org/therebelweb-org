@@ -34,11 +34,25 @@
     </div>
 
     <div class="section has-text-center">
-      <a class="button is-success is-large" href="/posts/getting-started/">Begin!</a>
+      <div class="columns">
+        <div class="column"></div>
+
+        <div class="column is-one-half">
+          <a class="button is-success is-large" href="/posts/getting-started/">Begin making a website</a>
+        </div>
+
+        <div class="column is-one-half">
+          <a class="button is-success is-large" href="/contributing/">Contribute to this project</a>
+        </div>
+
+        <div class="column"></div>
+      </div>
     </div>
 
-    {{ .Scratch.Set "items" (where .Site.RegularPages "Type" "in" "posts") }}
-    {{- partial "post_grid.html" . -}}
+    <div class="section">
+        {{ .Scratch.Set "items" (where .Site.RegularPages "Type" "in" "posts") }}
+        {{- partial "post_grid.html" . -}}
+    </div>
 
     </div>
 

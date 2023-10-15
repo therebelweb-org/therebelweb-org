@@ -5,7 +5,6 @@ layout: page
 
 {{< img "lead" "fantasy-book.png" >}}
 
-
 The Rebel Web was founded and authored by [Aaron Bieber](https://aaronbieber.com).
 
 The source code for this website can be found [on Github][gh].

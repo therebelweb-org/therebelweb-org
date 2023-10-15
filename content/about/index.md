@@ -5,7 +5,7 @@ layout: page
 
 {{< img "lead" "the-webmaster.png" >}}
 
-## The Web is ours
+### The Web is ours
 
 The Web was created to connect people, to share information, and to help us all
 become more culturally aware. At least, that's what its creator, Sir Tim
@@ -37,7 +37,7 @@ substantially, but the same simple tools that were used to put up a webpage in
 
 You can do it. The Rebel Web can help.
 
-## The platform paradox
+### The platform paradox
 
 As technology has advanced and appetites for mobile access and other features
 have grown, for-profit platforms like Squarespace and Wix have rushed in to fill
@@ -70,7 +70,7 @@ work with (for domain registration, web hosting, etc.; the necessary evils of a
 global network operation) you can *just leave*. Your visitors won't even know
 the difference.
 
-## It's just the Web
+### It's just the Web
 
 The Rebel Web is a resource to elevate your knowledge so that what may appear to
 be magic becomes routine. We are the webmasters, we are the creators.

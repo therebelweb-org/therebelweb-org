@@ -16,7 +16,7 @@ The Rebel Web is your guide to creating an identity on the internet. If you
 follow the articles one by one, you'll end up with a website of your own design
 at a domain name of your choosing, for all to see.
 
-## How to use this site
+### How to use this site
 
 Articles are organized in a sequence from start to finish, so it's strongly
 recommended that you read them in the order shown, but feel free to skip an
@@ -41,7 +41,7 @@ a fancy, color-highlighted fashion to aid in legibility. The colors of code
 shown on these pages may not be the same as what you see in your own editor.
 That's OK!
 
-## How to make a website
+### How to make a website
 
 To put a website online, you need the following things:
 
